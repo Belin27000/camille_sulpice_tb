@@ -1,7 +1,7 @@
 {
   "name": "camille_sulpice",
   "version": "0.1.0",
-  "homepage": "https://belin27000.github.io/camille_sulpice_therapie",
+  "homepage": "https://belin27000.github.io/camille_sulpice_tb",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

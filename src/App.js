@@ -11,7 +11,7 @@ import Layout from '@/Layouts/Layout.js';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/camille_sulpice_therapie'>
+      <BrowserRouter basename='/camille_sulpice_tb'>
         <Routes>
           <Route element={<Layout />}>
 

@@ -7,6 +7,7 @@ import Accompagnement from '@/pages/Accompagnement/Accompagnement.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Error from '@/_utils/Error.js';
 import Layout from '@/Layouts/Layout.js';
+import Legal from './_utils/Legal/Legal.js';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/apropos' element={<Apropos />} />
             <Route path='/endometriose' element={<Endometriose />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/Legal' element={<Legal />} />
 
             <Route path='*' element={<Error />} />
           </Route>

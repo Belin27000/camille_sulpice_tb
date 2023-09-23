@@ -2,11 +2,13 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.scss'
 import { Link } from 'react-router-dom';
+import Button from '@/components/Buttons/Button/Button.js';
+
 import ScrollToTop from '../../components/Buttons/ScrollButton/ScrollToTop.js';
 
 const Contact = () => {
 
-    // const [formValid, setFormValid] = useState(false)
+    const [formValid, setFormValid] = useState(false)
     const [firstNameValid, setFirstNameValid] = useState('')
     const [lastNameValid, setLastNameValid] = useState('')
     const [emailValid, setEmailValid] = useState('')
@@ -72,9 +74,7 @@ const Contact = () => {
         console.log(isValid);
         if (isValid) {
             sendEmail(e)
-
-        } else {
-            alert('verifier le formulaire')
+            setFormValid(true)
         }
         // form.reset()
     }
@@ -89,41 +89,47 @@ const Contact = () => {
             <Link to='tel:0684624774'>06.84.62.47.74</Link>
             <p>Ou bien m'envoyer un mail via le formulaire de contact ci-dessous : </p>
             <div className='form-container'>
-                <form ref={form} className='contact-form' onSubmit={(e) => handleSubmit(e)}>
-                    <div>
-                        <div className="input-wrapper">
-                            <label htmlFor="lastName">Nom</label>
-                            <input name="lastName" type="text" id="lastName" />
-                            {lastNameValid && <div id="lastNameErrorMSg" className="error">{lastNameValid}</div>}
+                {!formValid ? (
+                    <form ref={form} className='contact-form' onSubmit={(e) => handleSubmit(e)}>
+                        <div>
+                            <div className="input-wrapper">
+                                <label htmlFor="lastName">Nom</label>
+                                <input name="lastName" type="text" id="lastName" />
+                                {lastNameValid && <div id="lastNameErrorMSg" className="error">{lastNameValid}</div>}
+                            </div>
+                            <div className="input-wrapper">
+                                <label htmlFor="firstName">Prénom</label>
+                                <input name="firstName" type="text" id="firstName" />
+                                {firstNameValid && <div id="firstNameErrorMSg" className="error">{firstNameValid}</div>}
+                            </div>
+                        </div>
+                        <div>
+                            <div className="input-wrapper">
+                                <label htmlFor="phone">Téléphone</label>
+                                <input name="phone" type="tel" id="phone" />
+                                {phoneValid && <div id="emailErrorMSg" className="error">{phoneValid}</div>}
+                            </div>
+                            <div className="input-wrapper">
+                                <label htmlFor="email">Mail</label>
+                                <input name="email" type="email" id="email" ></input>
+                                {emailValid && <div id="emailErrorMSg" className="error">{emailValid}</div>}
+                            </div>
                         </div>
                         <div className="input-wrapper">
-                            <label htmlFor="firstName">Prénom</label>
-                            <input name="firstName" type="text" id="firstName" />
-                            {firstNameValid && <div id="firstNameErrorMSg" className="error">{firstNameValid}</div>}
+                            <label htmlFor="Message">Message</label>
+                            <textarea type="text" id="Message" name="Message" />
                         </div>
-                    </div>
-                    <div>
-                        <div className="input-wrapper">
-                            <label htmlFor="phone">Téléphone</label>
-                            <input name="phone" type="tel" id="phone" />
-                            {phoneValid && <div id="emailErrorMSg" className="error">{phoneValid}</div>}
-                        </div>
-                        <div className="input-wrapper">
-                            <label htmlFor="email">Mail</label>
-                            <input name="email" type="email" id="email" ></input>
-                            {emailValid && <div id="emailErrorMSg" className="error">{emailValid}</div>}
-                        </div>
-                    </div>
-                    <div className="input-wrapper">
-                        <label htmlFor="Message">Message</label>
-                        <textarea type="text" id="Message" name="Message" />
-                    </div>
 
-                    <button className="contact-send">Envoyer</button>
-                </form>
+                        <button className="contact-send">Envoyer</button>
+                    </form>
+                ) : (<div className='contact-form-sent'>
+                    <p>Le formulaire a bien était envoyé</p>
+                    <Button name={'Retour à l\'accueil'} path={'/home'} />
+                </div>
+                )}
             </div>
             <ScrollToTop />
-        </div>
+        </div >
     );
 };
 

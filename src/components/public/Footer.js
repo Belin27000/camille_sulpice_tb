@@ -11,7 +11,8 @@ const Footer = () => {
         <div className='Footer'>
             <div className='Footer-container'>
                 <p>© {year} C.SULPICE</p>
-                <p>Made with <FaHeart /> By <a href="https://www.linkedin.com/in/yannlecerf" rel="noreferrer" target="_blank">Conseils & Tech</a></p>
+                <p>Made with <FaHeart /> By <a href="https://www.linkedin.com/in/yannlecerf" rel="noreferrer" target="_blank">Yann LECERF from Conseils & Tech</a></p>
+                <Link to='/Legal'>Mentions légales</Link>
             </div>
         </div>
     );

@@ -1,31 +1,37 @@
 .Footer {
-    width: 100%;
-    height: 15rem;
+    // width: 100%;
+    // height: 15rem;
     background-color: var(--mainBlue);
     color: var(--thirdWhite);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: .8rem;
-    padding: 2rem 0;
+    // padding: 2rem 0;
 
     &-container {
         // display: flex;
         width: 100%;
-        justify-content: space-evenly;
+        padding: 1rem 0;
+        line-height: 1.5rem;
+        justify-content: space-around;
     }
 
     p {
-        height: 100%;
         margin: 0;
 
         a {
-            color: var(--thirdWhite);
-            text-decoration: none;
+            // color: var(--thirdWhite);
 
-            &:hover {
-                text-decoration: underline;
-            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--thirdWhite);
+
+        &:hover {
+            text-decoration: underline;
         }
     }
 }

@@ -50,6 +50,11 @@
             color: var(--mainBlue);
             box-shadow: 0px 0px 2px var(--secondaryBeige);
         }
+
+        &-sent {
+            padding: 1rem 0;
+
+        }
     }
 
     &-send {

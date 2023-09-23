@@ -68,11 +68,11 @@ const Contact = () => {
         const formData = new FormData(form)
         const isValid = await validate(formData)
 
-        // setFormValid(isValid)
 
         console.log(isValid);
         if (isValid) {
             sendEmail(e)
+
         } else {
             alert('verifier le formulaire')
         }

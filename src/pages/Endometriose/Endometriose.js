@@ -53,7 +53,7 @@ const Endometriose = () => {
                     srcSet={`
                     ${ProblemS} 200w,
                     ${ProblemM} 458w,
-                    ${ProblemL} 500w"
+                    ${ProblemL} 500w
                     `}
                     width='500'
                     height='500'
@@ -74,7 +74,7 @@ const Endometriose = () => {
                     srcSet={`
                     ${DespressS} 200w,
                     ${DespressM} 448w,
-                    ${DespressL} 500w"
+                    ${DespressL} 500w
                     `}
                     width='500'
                     height='500'
@@ -94,7 +94,7 @@ const Endometriose = () => {
                     srcSet={`
                     ${InfertilityS} 200w,
                     ${InfertilityM} 447w,
-                    ${InfertilityL} 500w"
+                    ${InfertilityL} 500w
                     `}
                     width='500'
                     height='500'

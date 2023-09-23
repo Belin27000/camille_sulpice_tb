@@ -5,7 +5,7 @@
     .error {
         font-size: .8rem;
         margin: 0;
-        color: #190000;
+        color: var(--thirdWhite);
     }
 
     &-title {
@@ -20,7 +20,7 @@
     }
 
     &-form {
-        background-color: var(--fourthpurple);
+        background-color: var(--mainBlue);
         margin: 2rem;
         padding: 1rem;
         border-radius: 10px;
@@ -32,7 +32,7 @@
 
             label {
                 margin: 1rem 0;
-                color: #000000;
+                color: var(--secondaryBeige);
             }
 
             input {
@@ -43,6 +43,12 @@
             #Message {
                 height: 5rem;
             }
+        }
+
+        .contact-send {
+            background-color: var(--secondaryBeige);
+            color: var(--mainBlue);
+            box-shadow: 0px 0px 2px var(--secondaryBeige);
         }
     }
 

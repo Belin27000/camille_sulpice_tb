@@ -2,9 +2,12 @@ import React from 'react';
 import '@/components/public/footer.scss'
 
 const Footer = () => {
+    const date = new Date()
+    const year = date.getFullYear()
+
     return (
         <div className='Footer'>
-            © 2023 C.SULPICE
+            © {year} C.SULPICE
         </div>
     );
 };

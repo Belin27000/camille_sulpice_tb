@@ -11,11 +11,14 @@ import Button from '@/components/Buttons/Button/Button.js';
 import ScrollToTop from '../../components/Buttons/ScrollButton/ScrollToTop.js';
 
 const Apropos = () => {
+    const age = ((new Date().getTime() - new Date("10 December 1985").getTime()) / 31536000000).toFixed(0)
+    console.log(age);
+
 
     return (
         <div className='about'>
             <h2 className='about-title'>Qui suis-je ?</h2>
-            <p className="about-text">Je suis Camille Sulpice, j’ai 37 ans. </p>
+            <p className="about-text">Je suis Camille Sulpice, j’ai {age} ans. </p>
 
             <img className="about-img"
                 src={ProfilPicXxL}

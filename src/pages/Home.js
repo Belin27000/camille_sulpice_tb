@@ -19,21 +19,19 @@ const Home = () => {
                     <p>{text}</p>
                 </blockquote>
                 <ScrollToTop />
-                <p>Cette citation résume à elle seule très bien la thérapie brève systémique et stratégique !
+                <p>Cette citation résume à elle seule très bien la thérapie brève systémique et stratégique !</p>
+                <p>
+                    Le travail thérapeutique que je vous propose est d’analyser ensemble ce qui dysfonctionne, maintient ou aggrave le problème dans le but de co-construire une stratégie différente.
                 </p>
                 <p>
-                    Le travail que je vous propose est d’analyser ensemble ce qui <span className='textHightLight'>dysfonctionne, maintient ou aggrave </span>
-                    le problème dans le but de co-construire, ensemble, une <span className='textHightLight'>stratégie différente.</span>
-                </p>
-                <p>
-                    Cette approche conduit à un <span className='textHightLight'>changement durable</span> par une intervention brève allant de <span className='textHightLight'>1 à 10 séances.</span> Il ne s'agit pas ici d'analyser pourquoi le problème est apparu ou bien où il trouve ses origines mais de comprendre <span className='textHightLight'>comment il fonctionne</span> et surtout <span className='textHightLight'>comment il se maintient.</span>
+                    Cette approche conduit à un changement durable par une intervention brève allant de 1 à 10 séances. Il ne s'agit pas ici d'analyser pourquoi le problème est apparu ou bien où il trouve ses origines mais de comprendre comment il fonctionne et surtout comment il se maintient, pour apprendre à faire autrement.
                 </p>
             </section>
             <section className="difficulty">
                 <div className="difficulty-head" tabIndex={0}>
                     <ul>
-                        <li>Vous rencontrez une difficulté de vie ou un problème ? </li>
-                        <li>Vous avez tout essayer ? </li>
+                        <li>Vous rencontrez une difficulté de vie ou un problème ?</li>
+                        <li>Vous avez tout essayé ?</li>
                         <li>Vous vous sentez coincé dans une situation, épuisé et avez l’impression que rien ne pourra changer ?</li>
                     </ul>
                 </div>

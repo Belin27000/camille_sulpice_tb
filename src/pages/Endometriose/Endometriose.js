@@ -42,10 +42,11 @@ const Endometriose = () => {
             <h3 className='endo-subtitle'>L'endométriose et la thérapie brève stratégique & systémique</h3>
             <section className='endo-text'>
                 <p>L’endométriose, cette maladie invisible et pourtant invalidante ! Nombre de femmes atteintes font face à un parcours du combattant ! Errance médicale et thérapeutique, incompréhension de l’entourage, impacts sur la vie sociale et professionnelle... nombreuses sont les conséquences psychologiques de la maladie.</p>
-                <p>Quelle femme atteinte d’endomédriose ne s’est pas heurtée à des phrases du type “Vous n’avez pas mal, c’est dans votre tête !” ou bien “Avoir des douleurs pendant les règles est tout à fait normal!” de la part de son entourage ou même de professionnels du monde médical.</p>
-                <p>C’est pourquoi j’ai décidé de dédier mon activité à l’accompagnement et au soutien des femmes atteintes d’endométriose. </p>
-                <p>Parce que la thérapie brève systémique et stratégique peut vous aider à mieux vivre avec la maladie et vous apporter un mieux être. Tout en respectant vos émotions, votre vision du monde et de façon non pathologisante. </p>
-                <p>Ce travail thérapeutique et cette approche peuvent vous aider dans votre vie avec l'endométriose. Vous êtes touchée par une autre maladie gynécologique ou bien chronique ? SOPK, adénomyose,  fibromyalgie, maladie de Crohn,...  </p>
+                <p>Quelle femme atteinte d’endomédriose ne s’est pas heurtée à des phrases du type “Vous n’avez pas mal, c’est dans votre tête !” ou bien “Avoir des douleurs pendant les règles est tout à fait normal!” de la part de son entourage ou même de professionnels du monde médical.
+                </p>
+                <p>C’est pourquoi j’ai décidé de dédier mon activité à l’accompagnement et au soutien des femmes atteintes d’endométriose.</p>
+                <p>Parce que la thérapie brève systémique et stratégique peut vous aider à mieux vivre avec la maladie et vous apporter un mieux être. </p>
+                <p>Vous êtes touché(e) par une autre maladie gynécologique ou bien chronique ? SOPK, adénomyose, fibromyalgie, maladie de Crohn,...  La thérapie, par de nouvelles stratégies, permet de vous aider à apaiser les souffrances et les symptômes associés.</p>
             </section>
             <section className="endo-problem">
                 <img className="endo-problem-pic"
@@ -83,8 +84,8 @@ const Endometriose = () => {
                 <div className="endo-despress-description">
                     <h4>Dépression & anxiété</h4>
                     <ul className='endo-despress-list'>
-                        <li className='endo-despress-item'>Examens médicaux, traitements, chirurgies, ... </li>
-                        <li className='endo-despress-item'>Autant d’étapes difficiles que vivent les femmes atteintes de cette maladie.</li>
+                        <li className='endo-despress-item'>Examens médicaux à répétition, traitements, chirurgies, … </li>
+                        <li className='endo-despress-item'>Autant d’étapes difficiles et angoissantes que vivent les femmes atteintes de cette maladie</li>
                     </ul>
                 </div>
             </section>
@@ -103,9 +104,11 @@ const Endometriose = () => {
                 <div className="endo-infertility-description">
                     <h4>Infertilité</h4>
                     <ul className='endo-infertility-list'>
-                        <li className='endo-infertility-item'>On sait que l’endométriose peut rendre la conception d’un enfant difficile mais qu’en est-il quand en plus le stress vient s’en mêler ? </li>
-                        <li className='endo-infertility-item'>On connaît l’impact de la santé psychologique sur la fertilité. </li>
-                        <li className='endo-infertility-item'>La thérapie brève peut vous aider dans un projet de procréation ou bien à mieux vivre avec l’infertilité.</li>
+                        <li className='endo-infertility-item'>On sait que l’endométriose impacte la fertilité mais qu’en est-il quand en plus le stress, l’angoisse et la culpabilité viennent s’en mêler ? </li>
+                        <li className='endo-infertility-item'>Vous rencontrez des problèmes de fertilité ?</li>
+                        <li className='endo-infertility-item'>Vous êtes en parcours PMA ? </li>
+                        <li className='endo-infertility-item'>Vous avez dû vous résigner à l’idée de pouvoir avoir un enfant ? </li>
+                        <li className='endo-infertility-item'>La thérapie brève peut vous aider dans un projet de procréation ou bien vous aider dans le deuil de la maternité. </li>
                     </ul>
                 </div>
             </section>

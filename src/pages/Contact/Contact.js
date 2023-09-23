@@ -123,7 +123,7 @@ const Contact = () => {
                         <button className="contact-send">Envoyer</button>
                     </form>
                 ) : (<div className='contact-form-sent'>
-                    <p>Le formulaire a bien était envoyé</p>
+                    <p>Le formulaire a bien été envoyé</p>
                     <Button name={'Retour à l\'accueil'} path={'/home'} />
                 </div>
                 )}

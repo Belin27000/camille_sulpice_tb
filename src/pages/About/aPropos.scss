@@ -23,19 +23,17 @@
 
     &-list {
         padding: 0 .3rem;
+        text-align: left;
 
         &-item {
+            justify-content: left;
             width: 100%;
+            line-height: .5rem;
             margin: 1rem 0;
+            line-height: 2rem;
+            display: list-item;
+            list-style-position: inside;
 
-            &::before {
-                content: '';
-                width: 70px;
-                height: 70px;
-                background-size: cover;
-                background-image: url('../../assets/Dipôme.webp');
-                background-position: center top;
-            }
         }
     }
 

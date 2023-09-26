@@ -10,7 +10,7 @@ import ScrollToTop from '../components/Buttons/ScrollButton/ScrollToTop.js';
 
 const Home = () => {
 
-    const text = useTypingeffect(" \"La folie c'est de faire tout le temps la même chose et de s'attendre à un résultat différent\" A.Einstein", 125);
+    const text = useTypingeffect(" \"La folie c'est de faire tout le temps la même chose et de s'attendre à un résultat différent\" A.Einstein", 42);
     return (
         <div className='Home'>
             <h1 className='sr-only' tabIndex={0}>camille sulpice therapie brève fontainebleau en seine et marne - accueil</h1>

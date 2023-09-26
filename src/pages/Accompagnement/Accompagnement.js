@@ -41,7 +41,7 @@ const Accompagnement = () => {
             <ul className='accompagnement-list'>
                 <li>Le règlement par virement ou paypal vous sera demandé avant le rendez-vous.</li>
                 <li>Vous recevez un lien pour rejoindre la visioconférence le jour du rendez-vous.</li>
-                <li>La veille ou le jour J de votre rendez-vous je vous envoi un questionnaire en ligne à remplir afin de récolter des informations sur la manière dont vous vous sentez avant d’aborder votre séance.</li>
+                <li>La veille ou le jour de votre rendez-vous, vous recevez un questionnaire en ligne à remplir.</li>
                 <li>A l’heure du rendez-vous, nous nous rejoignons en visio et la séance démarre.</li>
             </ul>
             <Button name={'Prendre rendez-vous'} path={'/contact'} />

@@ -12,4 +12,9 @@
     bottom: 100px;
     right: 10px;
     cursor: pointer;
+
+    &:hover {
+        background-color: var(--mainBlue);
+        color: var(--secondaryBeige);
+    }
 }

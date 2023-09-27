@@ -33,7 +33,7 @@ const Accompagnement = () => {
                     height='853'
                     alt="arbre sortant a peine de terre" className="accompagnement-img" />
             </div>
-            <p className="accompagnement-text">Ce modèle de thérapie s’attache à prendre en compte vos émotions, vos pensées, votre vision du monde, votre contexte relationnel, dans l' ici et maintenant, c’est pourquoi il n’existe pas une solution unique pour un problème, chaque situation, bien qu’elle ait des éléments communs, doit faire l’objet d’une anamnèse précise et particulière.</p>
+            <p className="accompagnement-text">Ce modèle de thérapie s’attache à prendre en compte vos émotions, vos pensées, votre vision du monde, votre contexte relationnel, dans l'ici et maintenant, c’est pourquoi il n’existe pas une solution unique pour un problème, chaque situation, bien qu’elle ait des éléments communs, doit faire l’objet d’une analyse précise et particulière.</p>
             <p className="accompagnement-text">Bien que son nom indique qu’elle soit “brève” elle va de 1 à 10 séances espacées d’environ 15 jours, en fonction des situations et peut donc s’étaler sur plusieurs mois.</p>
             <p className="accompagnement-text">Afin de rester accessible au plus grand nombre, je vous propose des séances en visio via l’application Zoom ou Google meet. Ces séances durent entre 45 minutes et 1 heure.</p>
             <p className="accompagnement-text_price">1 séance individuelle de thérapie brève : 60€ </p>

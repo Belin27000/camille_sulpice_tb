@@ -18,7 +18,7 @@ const Legal = () => {
             <h2>DONNÉES PERSONNELLES</h2>
             <h3>1/ NATURE DES DONNÉES PERSONNELLES</h3>
             <p>Les informations recueillies sont :</p>
-            <p>Les données provenant du formulaire de contact ou de demande de devis (nom, prénom, adresse, téléphone, mail, société …).</p>
+            <p>Les données provenant du formulaire de contact: nom, prénom, téléphone et mail.</p>
             <h3>2/ UTILISATION DES DONNÉES</h3>
             <p>Les informations recueillies me permettent :</p>
             <p>De vous recontacter. </p>

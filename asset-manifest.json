@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/camille_sulpice_tb/static/css/main.3eee7a3f.css",
-    "main.js": "/camille_sulpice_tb/static/js/main.fb3000bb.js",
+    "main.css": "/camille_sulpice_tb/static/css/main.455410de.css",
+    "main.js": "/camille_sulpice_tb/static/js/main.aaa308dc.js",
     "static/js/787.09a9dbaa.chunk.js": "/camille_sulpice_tb/static/js/787.09a9dbaa.chunk.js",
     "static/media/Profile_xxxxL_2100.webp": "/camille_sulpice_tb/static/media/Profile_xxxxL_2100.eb5a37faf57b8944a42d.webp",
     "static/media/Profile_superLarge_2031.webp": "/camille_sulpice_tb/static/media/Profile_superLarge_2031.757088d13924dd286ce8.webp",
@@ -37,12 +37,12 @@
     "static/media/despress_small_200.webp": "/camille_sulpice_tb/static/media/despress_small_200.7728296e5151270c1f72.webp",
     "static/media/problem_small_200.avif": "/camille_sulpice_tb/static/media/problem_small_200.88804793d9f031c54d64.avif",
     "index.html": "/camille_sulpice_tb/index.html",
-    "main.3eee7a3f.css.map": "/camille_sulpice_tb/static/css/main.3eee7a3f.css.map",
-    "main.fb3000bb.js.map": "/camille_sulpice_tb/static/js/main.fb3000bb.js.map",
+    "main.455410de.css.map": "/camille_sulpice_tb/static/css/main.455410de.css.map",
+    "main.aaa308dc.js.map": "/camille_sulpice_tb/static/js/main.aaa308dc.js.map",
     "787.09a9dbaa.chunk.js.map": "/camille_sulpice_tb/static/js/787.09a9dbaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3eee7a3f.css",
-    "static/js/main.fb3000bb.js"
+    "static/css/main.455410de.css",
+    "static/js/main.aaa308dc.js"
   ]
 }

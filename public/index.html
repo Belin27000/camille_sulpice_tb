@@ -4,15 +4,42 @@
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <meta name="description"
+    content="Accompagnement en thérpie brève basé sur le modère Palo Alto à fontainebleau en seine et marne">
+  <meta property="og:title" content="Thérpie brève Camille Sulpice">
+  <meta property="og:description" content="photo du logo de camille Sulpice">
+  <meta property="og:image" content="%PUBLIC_URL%/assets/Logo_CS.png">
+  <meta itemprop="name" content="Camille Sulpice">
+  <meta itemprop="image" content="%PUBLIC_URL%/assets/images/profil/Profile_small_768.webp" />
+  <meta itemprop="address" content="77690 La genevraye">
+  <meta itemprop="telephone" content="06 84 62 47 74">
+  <meta itemprop="openingHours" content="Mo-Fr 10:00-19:00">
+  <!-- Open Graph data -->
+
+  <meta property="og:title" content="Camille Sulpice" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://camille-sulpice.fr" />
+  <meta property="og:image" content="%PUBLIC_URL%/assets/Logo_CS.png" />
+  <meta property="og:description"
+    content="Accompagnement en thérpie brève basé sur le modère Palo Alto à fontainebleau en seine et marne" />
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Camille Sulpice">
+  <meta name="twitter:description"
+    content="Accompagnement en thérpie brève basé sur le modère Palo Alto à fontainebleau en seine et marne">
+  <meta name="twitter:image" content="%PUBLIC_URL%/assets/Logo_CS.png">
+
+
+
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="manifest" href="/manifest.json" />
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -33,16 +60,6 @@
     // When the single page app is loaded further down in this file,
     // the correct url will be waiting in the browser's history for
     // the single page app to route accordingly.
-    (function (l) {
-      if (l.search[1] === '/') {
-        var decoded = l.search.slice(1).split('&').map(function (s) {
-          return s.replace(/~and~/g, '&')
-        }).join('?');
-        window.history.replaceState(null, null,
-          l.pathname.slice(0, -1) + decoded + l.hash
-        );
-      }
-    }(window.location))
   </script>
   <title>Camille Sulpice Thérapie brève</title>
 </head>

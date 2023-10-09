@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://camille-sulpice.fr/</loc>
+
+      <lastmod>2005-10-05</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://camille-sulpice.fr/accompagnement</loc>
+
+      <lastmod>2005-10-05</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+   <url>
+
+      <loc>https://camille-sulpice.fr/apropos</loc>
+
+      <lastmod>2005-10-05</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+   <url>
+
+      <loc>https://camille-sulpice.fr/endometriose</loc>
+
+      <lastmod>2005-10-05</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>https://camille-sulpice.fr/contact</loc>
+
+      <lastmod>2005-10-05</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.5</priority>
+
+   </url>
+
+</urlset> 

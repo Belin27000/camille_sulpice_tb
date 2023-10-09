@@ -107,8 +107,7 @@ const Endometriose = () => {
                         <li className='endo-infertility-item'>On sait que l’endométriose impacte la fertilité mais qu’en est-il quand en plus le stress, l’angoisse et la culpabilité viennent s’en mêler ? </li>
                         <li className='endo-infertility-item'>Vous rencontrez des problèmes de fertilité ?</li>
                         <li className='endo-infertility-item'>Vous êtes en parcours PMA ? </li>
-                        <li className='endo-infertility-item'>Vous avez dû vous résigner à l’idée de pouvoir avoir un enfant ? </li>
-                        <li className='endo-infertility-item'>La thérapie brève peut vous aider dans un projet de procréation ou bien vous aider dans le deuil de la maternité. </li>
+                        <li className='endo-infertility-item'>La thérapie brève peut vous aider dans un projet de procréation ou encore à surmonter les difficultés liées à l'infertilité.</li>
                     </ul>
                 </div>
             </section>

@@ -12,7 +12,7 @@ import Legal from './_utils/Legal/Legal.js';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/camille_sulpice_tb'>
+      <BrowserRouter >
         <Routes>
           <Route element={<Layout />}>
 
